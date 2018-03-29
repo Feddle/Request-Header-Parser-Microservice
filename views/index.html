@@ -1,0 +1,38 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request-Header-Parser-Microservice</title>
+    <meta name="Request-Header-Parser-Microservice" content="Request-Header-Parser-Microservice made by Feddle">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Request-Header-Parser-Microservice</h1>
+      <p>Parses the headers and returns the IP address, language and operating system of the request.</p>
+      <a href="https://github.com/Feddle/Request-Header-Parser-Microservice">https://github.com/Feddle/Request-Header-Parser-Microservice</a>
+      <h2>Example usage</h2>
+      <code>https://whoami-feddle.glitch.me/RHPM</code>
+      <p></p>      
+      <h2>Example output</h2>
+      <code>{ "ip": "::ffff:127.0.0.1", "language": "en-US", "software": "Windows NT 10.0; Win64; x64; rv:59.0" }</code>
+    </div>
+  
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="/client.js"></script>
+
+  </body>
+</html>
