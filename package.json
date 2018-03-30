@@ -3,9 +3,9 @@
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
 
-  "name": "Timestamp-microservice",
+  "name": "Request-Header-Parser-Microservice",
   "version": "1.0.0",
-  "description": "Returns provided natural or unix timestamp as an object that contains both.",
+  "description": "Parses the headers and returns the IP address, language and operating system of the request.",
   "scripts": {
     "start": "node server.js"
   },
@@ -16,7 +16,7 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "https://github.com/Feddle/Timestamp-microservice"
+    "url": "https://github.com/Feddle/Request-Header-Parser-Microservice"
   },
   "license": "MIT",
   "keywords": [
