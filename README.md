@@ -1,4 +1,4 @@
-Timestamp-microservice
+Request-Header-Parser-Microservice
 ==========================
 
 Parses the headers and returns the IP address, language and operating system of the request.
